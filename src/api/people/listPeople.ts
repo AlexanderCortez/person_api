@@ -33,7 +33,13 @@ const listPeople = async (
     return res.sendNotFound('No records found');
   }
 
-  res.sendSuccess(activePeople);
+  const data = activePeople.map((person) => ({
+    name: person.name,
+    favoriteMovie: person.favoriteMovie,
+    date: person.date,
+  }));
+
+  res.sendSuccess(data);
 };
 
 export default listPeople;
