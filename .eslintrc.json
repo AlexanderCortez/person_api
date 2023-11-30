@@ -9,5 +9,5 @@
   "parserOptions": { "project": ["./tsconfig.json"] },
   "plugins": ["@typescript-eslint", "import"],
   "rules": {},
-  "ignorePatterns": ["src/**/*.test.ts", "dist/*"]
+  "ignorePatterns": ["dist/*"]
 }

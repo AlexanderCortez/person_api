@@ -31,3 +31,13 @@ Create a `.env` file in the root of the project with your desired values using `
 #### Linter:
 
 `npm run lint`
+
+## API
+
+GET - `/api/people`
+
+queryParams:
+
+`sortBy`: name, favoriteFood, favoriteMovie, status, date
+
+`sortDir`: asc, desc

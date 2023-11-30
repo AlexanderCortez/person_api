@@ -3,5 +3,6 @@ declare namespace Express {
     sendSuccess: Send,
     sendNotFound: Send,
     sendError: Send,
+    sendInvalid: Send,
   }
 }
